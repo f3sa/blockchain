@@ -1,0 +1,27 @@
+{
+  "name": "curren",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "ts-node-dev --transpile-only --no-notify src/index.ts",
+    "gen": "ts-node-dev --transpile-only --no-notify src/generator.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.10.3",
+    "node-ts": "^5.1.2",
+    "ts-node-dev": "^1.1.8"
+  },
+  "dependencies": {
+    "@types/elliptic": "^6.4.13",
+    "@types/express": "^4.17.13",
+    "crypto": "^1.0.1",
+    "ejs": "^3.1.6",
+    "elliptic": "^6.5.4",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "typescript": "^4.4.4"
+  }
+}
