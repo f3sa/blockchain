@@ -13,7 +13,6 @@ export class BlockChain
     * Settings for this blockchain
     */
    private maxSupply = 10000000
-   private startingValue = 1.05
    /**
     * Initialize the chain with a genesis block.
     * 
